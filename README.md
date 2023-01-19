@@ -1,4 +1,4 @@
-# pytools
+# pytools [![CircleCI](https://dl.circleci.com/status-badge/img/gh/mauriciodoerr/pytools/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/mauriciodoerr/pytools/tree/main)
 Code samples regarding the module Pytools from DevPro Platform
 
 Supported Python version 3
