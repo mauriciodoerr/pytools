@@ -7,10 +7,17 @@ Code samples regarding the module Pytools from DevPro Platform
 
 Supported Python version 3
 
-<h3>Implemented Libs:</h3>
+1. [Implemented Libs](https://github.com/mauriciodoerr/pytools/edit/main/README.md#implemented-libs)
+2. [Installing](https://github.com/mauriciodoerr/pytools/edit/main/README.md#installing)
+3. [Useful Commands](https://github.com/mauriciodoerr/pytools/edit/main/README.md#useful-python-commands)
+   - [Virtual Environment](https://github.com/mauriciodoerr/pytools/edit/main/README.md#create-and-activate-venv)
+   - [PyPi Local Lib](https://github.com/mauriciodoerr/pytools/edit/main/README.md#install-pypi-local-lib1)
+
+## Implemented Libs:
 - Requests: HTTP for Humans™
 
-<h3>Installing</h3>
+## Installing
+
 ```console
 python3 -m venv .venv
 source .venv/bin/activate
@@ -22,18 +29,21 @@ Check for Code Quality following PEP8, execute:
 flake8
 ```
 
-<h2>Useful Python commands</h2>
-<h3>Create and activate venv</h3>
+## Useful Python commands
+
+#### Create and activate venv
+
 ```console
 python3 -m venv .venv
 source .venv/bin/activate
 ```
----
-<h3>Install PyPi local Lib[^1]</h3>
+
+#### Install PyPi local Lib[^1]
+
 ```console
 pip install -e "path to setup.py inside the lib"
 ```
-E.g.```pip install -e ./pytools```
+> E.g. pip install -e ./pytools
 
 Validate installation
 ```console
