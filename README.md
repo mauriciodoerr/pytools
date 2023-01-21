@@ -7,7 +7,10 @@ Code samples regarding the module Pytools from DevPro Platform
 
 Supported Python version 3
 
-Installing:
+<h3>Implemented Libs:</h3>
+- Requests: HTTP for Humans™
+
+<h3>Installing</h3>
 ```console
 python3 -m venv .venv
 source .venv/bin/activate
@@ -19,7 +22,22 @@ Check for Code Quality following PEP8, execute:
 flake8
 ```
 
-Implemented Libs:
+<h2>Useful Python commands</h2>
+<h3>Create and activate venv</h3>
 ```console
-Requests: HTTP for Humans™
+python3 -m venv .venv
+source .venv/bin/activate
+```
+---
+<h3>Install PyPi local Lib</h3>
+```console
+pip install -e "path to setup.py inside the lib"
+```
+E.g.```pip install -e ./pytools```
+
+Validate installation
+```console
+python
+from libhttprequests.github_api import get_github_avatar
+get_github_avatar('mauriciodoerr')
 ```
