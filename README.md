@@ -7,12 +7,12 @@ Code samples regarding the module Pytools from DevPro Platform
 
 Supported Python version 3
 
-1. [Implemented Libs](https://github.com/mauriciodoerr/pytools/edit/main/README.md#implemented-libs)
-2. [Installing](https://github.com/mauriciodoerr/pytools/edit/main/README.md#installing)
-3. [Useful Commands](https://github.com/mauriciodoerr/pytools/edit/main/README.md#useful-python-commands)
-   - [Virtual Environment](https://github.com/mauriciodoerr/pytools/edit/main/README.md#create-and-activate-venv)
-   - [PyPi Local Lib](https://github.com/mauriciodoerr/pytools/edit/main/README.md#install-pypi-local-lib1)
-   - [Publish at PyPi](https://github.com/mauriciodoerr/pytools/edit/main/README.md#publish-at-pypi)
+1. [Implemented Libs](https://github.com/mauriciodoerr/pytools#implemented-libs)
+2. [Installing](https://github.com/mauriciodoerr/pytools#installing)
+3. [Useful Commands](https://github.com/mauriciodoerr/pytools#useful-python-commands)
+   - [Virtual Environment](https://github.com/mauriciodoerr/pytools#create-and-activate-venv)
+   - [PyPi Local Lib](https://github.com/mauriciodoerr/pytools#install-pypi-local-lib1)
+   - [Publish at PyPi](https://github.com/mauriciodoerr/pytools#publish-at-pypi)
 ## Implemented Libs:
 - Requests: HTTP for Humans™
 
