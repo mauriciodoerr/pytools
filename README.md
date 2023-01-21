@@ -12,7 +12,7 @@ Supported Python version 3
 3. [Useful Commands](https://github.com/mauriciodoerr/pytools/edit/main/README.md#useful-python-commands)
    - [Virtual Environment](https://github.com/mauriciodoerr/pytools/edit/main/README.md#create-and-activate-venv)
    - [PyPi Local Lib](https://github.com/mauriciodoerr/pytools/edit/main/README.md#install-pypi-local-lib1)
-
+   - [Publish at PyPi](https://github.com/mauriciodoerr/pytools/edit/main/README.md#publish-at-pypi)
 ## Implemented Libs:
 - Requests: HTTP for Humans™
 
@@ -47,9 +47,16 @@ pip install -e "path to setup.py inside the lib"
 
 Validate installation
 ```console
-python
+python3
 from libhttprequests.github_api import get_github_avatar
 get_github_avatar('mauriciodoerr')
+```
+
+#### Publish at PyPi
+```console
+python3 setup.py sdist
+pip install twine
+twine upload dist/*
 ```
 
 [^1]: List Classifiers for PyPi can be found at https://pypi.org/pypi?%3Aaction=list_classifiers
