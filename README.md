@@ -13,6 +13,7 @@ Supported Python version 3
    - [Virtual Environment](https://github.com/mauriciodoerr/pytools#create-and-activate-venv)
    - [PyPi Local Lib](https://github.com/mauriciodoerr/pytools#install-pypi-local-lib1)
    - [Publish at PyPi](https://github.com/mauriciodoerr/pytools#publish-at-pypi)
+   - [Integrate Pytest]()
 ## Implemented Libs:
 - Requests: HTTP for Humans™
 
@@ -57,6 +58,18 @@ get_github_avatar('mauriciodoerr')
 python3 setup.py sdist
 pip install twine
 twine upload dist/*
+```
+
+#### Integrate Pytest
+```console
+pip install pytest
+pytest libhttprequests
+```
+Integrated with Travis via [.travis.yml](.travis.yml)
+
+#### Code coverage with pytest-cov
+```console
+pip install pytest-cov
 ```
 
 [^1]: List Classifiers for PyPi can be found at https://pypi.org/pypi?%3Aaction=list_classifiers
