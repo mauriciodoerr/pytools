@@ -13,7 +13,9 @@ Supported Python version 3
    - [Virtual Environment](https://github.com/mauriciodoerr/pytools#create-and-activate-venv)
    - [PyPi Local Lib](https://github.com/mauriciodoerr/pytools#install-pypi-local-lib1)
    - [Publish at PyPi](https://github.com/mauriciodoerr/pytools#publish-at-pypi)
-   - [Integrate Pytest]()
+   - [Integrate Pytest](https://github.com/mauriciodoerr/pytools#integrate-pytest)
+   - [pytest-cov for Code coverage](https://github.com/mauriciodoerr/pytools#code-coverage-with-pytest-cov)
+
 ## Implemented Libs:
 - Requests: HTTP for Humans™
 
