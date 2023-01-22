@@ -30,7 +30,7 @@ def test_email_to(email_to):
 def test_email_to_invalid(email_to):
     sender = EmailSender()
     with pytest.raises(InvalidEmail):
-        result = sender.send(
+        sender.send(
             email_to,
             'mauricio.doerr@gmail.com',
             'Testing Email Subject',
