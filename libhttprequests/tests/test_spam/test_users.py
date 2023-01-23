@@ -4,7 +4,7 @@ from libhttprequests.spam.db import DBConnection
 from libhttprequests.spam.models import User
 
 
-@pytest.fixture
+@pytest.fixture(scope='module')
 def connection():
     # Setup
     db_connection = DBConnection()
