@@ -2,7 +2,6 @@ from unittest.mock import Mock
 
 import pytest
 
-from libhttprequests.spam.email_sender import EmailSender
 from libhttprequests.spam.main import SpamSender
 from libhttprequests.spam.models import User
 
