@@ -6,7 +6,7 @@ pyflakes==3.0.1
 #Pytest Deps
 attrs==22.2.0
 iniconfig==2.0.0
-packaging==23.0
+packaging==23.1
 pluggy==1.0.0
 pytest==7.2.1
 pytest-mock==3.10.0
