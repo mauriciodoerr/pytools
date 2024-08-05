@@ -12,7 +12,7 @@ pytest==7.2.1
 pytest-mock==3.10.0
 
 #Pytest Cov
-coverage==7.0.5
+coverage==7.6.1
 pytest-cov==4.0.0
 
 -r requirements.txt
